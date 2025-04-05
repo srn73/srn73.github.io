@@ -1,3 +1,9 @@
+for (let i = 0; i < 10; i++) {
+    let e = document.createElement("div");
+    e.className = "square";
+    document.querySelector(".landing-bg").appendChild(e);
+};
+
 document.addEventListener("mousemove", (e) => {
     const squares = document.querySelectorAll(".square");
     const mx = e.clientX;
